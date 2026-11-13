@@ -1,0 +1,12 @@
+{
+  "capacity_ratio": 0.7,
+  "capacity": 1906.8,
+  "optimum_value_dp": 4560.0,
+  "optimum_weight": 1904.0,
+  "optimum_n_selected": 78,
+  "optimum_solution": "0111110111111110011111011100111110011111111011011111001111111111111111110101110010101111011010111111",
+  "milp_cross_check": "DP ve scipy.optimize.milp (HiGHS) aynı optimum değeri verdi",
+  "greedy_ratio_value": 4552.0,
+  "greedy_gap_pct": 0.17543859649122806,
+  "lp_relaxation_upper_bound": 4565.381818181818
+}

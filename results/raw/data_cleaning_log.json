@@ -1,0 +1,23 @@
+{
+  "rows_initial": 100,
+  "steps": [
+    {
+      "step": "eksik/sayısal olmayan değer içeren satırların silinmesi",
+      "removed": 0
+    },
+    {
+      "step": "tekrarlayan item numarasının silinmesi",
+      "removed": 0
+    },
+    {
+      "step": "ağırlığı veya değeri <= 0 olan satırların silinmesi",
+      "removed": 0
+    }
+  ],
+  "info_identical_weight_value_pairs_kept": 2,
+  "rows_final": 100,
+  "rows_removed_total": 0,
+  "cleaning_needed": false,
+  "capacity_ratio": 0.7,
+  "capacity": 1906.8
+}

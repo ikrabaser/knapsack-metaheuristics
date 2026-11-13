@@ -1,0 +1,2 @@
+n_items,total_weight,total_value,capacity_ratio,capacity,corr_weight_value_pearson,greedy_critical_ratio,optimum_value_dp,optimum_weight,optimum_n_selected,dp_median_time_ms,milp_median_time_ms,greedy_median_time_ms,n_duplicate_weight_value_pairs,rows_removed_by_cleaning
+100,2724.0,5121.0,0.7,1906.8,0.09115712067026416,1.0,4560.0,1904.0,78,0.850900003570132,16.529199994693045,0.04084999818587676,2,0
