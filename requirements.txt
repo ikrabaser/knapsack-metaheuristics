@@ -1,0 +1,8 @@
+# Çalıştırma gereksinimleri (alt sınırlar). Sonuçlar şu sürümlerle üretilmiştir:
+# Python 3.11.0, numpy 1.26.4, scipy 1.16.3, pandas 2.3.3, matplotlib 3.10.9, reportlab 4.5.1, pytest 9.1.1
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+reportlab>=4.0
+pytest>=8.0
