@@ -1,0 +1,6 @@
+label,shapiro_w,shapiro_p,note,unique_values
+GA,0.7687535184655688,1.8576305604643032e-05,normallik reddedildi (p<0.05),6
+ACO,,,tüm değerler özdeş (varyans 0),1
+BPSO,0.9706636612976163,0.5574910583269306,normallik reddedilemedi,29
+SA,0.5951582045582193,6.37323408077073e-08,normallik reddedildi (p<0.05),10
+GA-SA,0.7903790113098461,4.400069132467856e-05,normallik reddedildi (p<0.05),7

@@ -1,0 +1,4 @@
+label,shapiro_w,shapiro_p,note,unique_values
+ACO|beta=0,0.9127727651722063,0.017491494626734685,normallik reddedildi (p<0.05),11
+ACO|beta=1,0.39709135875679724,5.109190233290663e-10,normallik reddedildi (p<0.05),3
+ACO|beta=2,,,tüm değerler özdeş (varyans 0),1

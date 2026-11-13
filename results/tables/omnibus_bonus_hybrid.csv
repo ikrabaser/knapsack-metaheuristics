@@ -1,0 +1,3 @@
+test,statistic,df,p_value,effect_size_name,effect_size,n_per_group
+Friedman,6.080808080808063,2,0.04781556617008506,Kendall W,0.10134680134680105,30
+Kruskal-Wallis,8.816586278234455,2,0.01217594324469845,epsilon^2,0.09906276717117365,30

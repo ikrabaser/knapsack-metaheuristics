@@ -1,0 +1,4 @@
+label,shapiro_w,shapiro_p,note,unique_values
+GA|1/n,0.7741769921244216,2.2964012638919427e-05,normallik reddedildi (p<0.05),6
+GA|2/n,0.6349048993156423,2.001870487586343e-07,normallik reddedildi (p<0.05),6
+GA|5/n,0.9598140213424848,0.30640019427773296,normallik reddedilemedi,25

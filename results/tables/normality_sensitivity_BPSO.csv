@@ -1,0 +1,5 @@
+label,shapiro_w,shapiro_p,note,unique_values
+BPSO|0.4,0.9802100340469658,0.8311124828579609,normallik reddedilemedi,29
+BPSO|0.7,0.9694098546314099,0.5231557170772382,normallik reddedilemedi,29
+BPSO|0.9,0.9706636612976163,0.5574910583269306,normallik reddedilemedi,29
+BPSO|1.0,0.808529527371144,9.414627799067851e-05,normallik reddedildi (p<0.05),5

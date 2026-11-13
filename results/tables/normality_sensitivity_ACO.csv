@@ -1,0 +1,4 @@
+label,shapiro_w,shapiro_p,note,unique_values
+ACO|0.1,,,tüm değerler özdeş (varyans 0),1
+ACO|0.3,,,tüm değerler özdeş (varyans 0),1
+ACO|0.5,0.27537524707197014,4.401719843571043e-11,normallik reddedildi (p<0.05),2
