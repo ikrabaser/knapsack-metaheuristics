@@ -1,0 +1,1 @@
+"""PDF akademik rapor üretimi."""
