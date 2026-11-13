@@ -1,0 +1,130 @@
+{
+  "created_utc": "2026-11-12T22:41:43+00:00",
+  "quick_mode": false,
+  "environment": {
+    "python": "3.11.0",
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "os": "Windows 11 (derleme 26200)",
+    "machine": "AMD64",
+    "cpu_count_logical": 20,
+    "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+    "ram_gb": 15.6,
+    "matplotlib": "3.10.9"
+  },
+  "problem": {
+    "n_items": 100,
+    "total_weight": 2724.0,
+    "total_value": 5121.0,
+    "capacity_ratio": 0.7,
+    "capacity": 1906.8,
+    "optimum_value_dp": 4560.0
+  },
+  "design": {
+    "iterations": 200,
+    "population_size": 40,
+    "n_runs": 30,
+    "seeds": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029
+    ],
+    "pilot_seeds": [
+      9001,
+      9002,
+      9003,
+      9004,
+      9005,
+      9006,
+      9007,
+      9008,
+      9009,
+      9010
+    ],
+    "timing_repeats_median": 3,
+    "nominal_budget_pop_x_(iter+1)": 8040
+  },
+  "main_parameters": {
+    "GA": {
+      "population_size": 40,
+      "crossover_probability": 0.9,
+      "mutation_probability": 0.01,
+      "tournament_size": 3,
+      "elitism_size": 2,
+      "crossover_type": "uniform"
+    },
+    "ACO": {
+      "n_ants": 40,
+      "alpha": 1.0,
+      "beta": 2.0,
+      "evaporation_rate": 0.3,
+      "deposit_strength": 1.0,
+      "tau_min_ratio": 0.01,
+      "reinforcement": "both"
+    },
+    "BPSO": {
+      "swarm_size": 40,
+      "inertia": 0.9,
+      "c1": 2.0,
+      "c2": 2.0,
+      "v_max": 4.0
+    },
+    "SA": {
+      "initial_temperature": 100.0,
+      "cooling_rate": 0.95,
+      "cooling_schedule": "geometric",
+      "neighbors_per_iteration": 40,
+      "swap_probability": 0.5
+    },
+    "GA-SA": {
+      "evaluations_per_generation": 40,
+      "sa_evaluations_per_generation": 12,
+      "refine_top_k": 2,
+      "elitism_size": 2,
+      "crossover_probability": 0.9,
+      "mutation_probability": 0.01,
+      "tournament_size": 3,
+      "crossover_type": "uniform",
+      "sa_initial_temperature": 100.0,
+      "sa_cooling_rate": 0.95,
+      "swap_probability": 0.5
+    }
+  },
+  "evaluations_per_run": {
+    "ACO": 8000,
+    "BPSO": 8040,
+    "GA": 7640,
+    "SA": 8001,
+    "GA-SA": 8030
+  },
+  "total_wallclock_s": 131.0966460999989
+}
